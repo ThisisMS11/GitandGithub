@@ -24,18 +24,18 @@
     git add file_name.ext
 ```
 
-### for adding all the files of the respective folder to the staging level
+### For Staging all the files for tracking 
 
 ```
-    git add file_name.ext -A
+    git add -A
 ```
 
-### to find the status i.e. which file has been changed (modified) from staging level to staging level
+### to find the status i.e. a text that shows the modifications done in your git repo since the last commit.
 ```
     git status
 ```
 
-### Status in Short
+### Status in Short (to brief the status)
 ```
     git status -s
 ```

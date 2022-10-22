@@ -8,13 +8,13 @@
     git init
 ```
 
-### to add name and email
+### To add name and email
 ```
     git config --global user.name user_name
     git config --global user.email mailtomohit2002@gmail.com
 ```
 
-### to show all the files
+### To show all the files
 ```
     ls
 ```
@@ -31,7 +31,7 @@
     git add -A
 ```
 
-### to find the status i.e. a text that shows the modifications done in your git repo since the last commit.
+### To find the status i.e. a text that shows the modifications done in your git repo since the last commit.
 ```
     git status
 ```
@@ -53,13 +53,13 @@
 
 
 
-### to recover the previous code (last commit code) for a particular file
+### To recover the previous code (last commit code) for a particular file
 
 ```
     git checkout file_name.ext
 ```
 
-### to recover the previous code for all the files of the directory
+### To recover the previous code for all the files of the directory
 
 ```
     git checkout -f
@@ -67,59 +67,59 @@
 
 
 
-### to show all the files and  hidden item of the folder using git bash use
+### To show all the files and  hidden item of the folder using git bash use
 
 ```
     ls -lart
 ```
 
 
-### to create a blank file using git bash
+### To create a blank file using git bash
 ```
     touch file_name.ext
 ```
 
-### to check the commits made using git bash
+### To check the commits made using git bash
 ```
     git log
 ```
 
-### to check the last n commints
+### To check the last n commints
 ```
     git log -p -n
 ```
-### to compare the staging area with the working area
+### To compare the staging area with the working area
 ```
     git diff 
 ```
 
-### to compare the staging area with the last commit
+### To compare the staging area with the last commit
 ```
     git diff -- staged
 ```
 
-### to commit the files without adding to the staging area
+### To commit the files without adding to the staging area
 ```
     git commit -a -m 
 ```
-### to get the list of all the commits
+### To get the list of all the commits
 ```
     git reflog
 ```
 ![](5.png)
 
-### to recover the code from any specific commit
+### To recover the code from any specific commit
 ```
     git reset --hard commit_code(yellow thing in above pic)
 ```
 
 ## Deleting files 
 ---
-### deleting from working directory and the staging area
+### Deleting from working directory and the staging area
 ```
     git rm
 ```
-### deleting from staging area only
+### Deleting from staging area only
 ```
     git rm --cached
 ```
@@ -158,7 +158,7 @@ Switching to different branch
 
 
 
-### to commit for individual files
+### To commit for individual files
 
 ```
     USING VIM EDITOR
@@ -180,10 +180,10 @@ Switching to different branch
 ```
     touch .gitignore
 ```
-### to ignore only the files in the directory of gitignore only then write the following in gitignore
+### To ignore only the files in the directory of gitignore only then write the following in gitignore
 * **/file_name.ext**
 
-### to ignore all the files with extension .ext write the following
+### To ignore all the files with extension .ext write the following
 * ***.ext**
 ---
 
@@ -192,13 +192,13 @@ Switching to different branch
 ---
 # STEPS PORTION STARTS FROM HERE
 
-### to save any change made with any file we have to follow the following sequence:-
+### To save any change made with any file we have to follow the following sequence:-
     1. add the file to the staging level.
     2. do the changes you want to bring in your files.
     3. then commit to create the snapshot or save the changes.
     4. on commiting the files comes to the unmodified mode and from there it can either be removed from tracking or further changed.
 
-### to start the traking of our project at least once we need to do commit at least once (called initial commit){
+### To start the traking of our project at least once we need to do commit at least once (called initial commit){
     1. git commit
     2. vim editor opens
     3. press i
@@ -207,7 +207,7 @@ Switching to different branch
     6. :wq to exit
 
 
-### alternate way 
+### Alternate way 
     git commit -m "message to pass"
 
 
@@ -265,7 +265,7 @@ it will generate a key now go to add ssh key and add it there
 
 > If you push your repo to github and then make some changes in it and commit it even then those changes will not be reflected at your github repository but if you want to reflect them then you will again have to push the repo to github using the same above command.
 
-## merging branches
+## Merging branches
 > switch to that branch and use the same 'git push -u origin branch_name'
 
 ---

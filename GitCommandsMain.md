@@ -382,6 +382,23 @@ it will generate a key now go to add ssh key and add it there
 11. Esp : wq
 ```
 
+# Keeping your local Branch up to date with the original
+
+1. git checkout main/master.
+2. git add upstream _original_repo_link.
+
+![](5.png)
+
+![](6.png)
+
+3. git fetch upstream.
+4. git merge upstream/main
+
+>This will bring the changes directly from the main repo irrespective of whether the cloned repo is up to date or not.
+
+
+'main' can be replaced by the main branch's name of the original repository like master,develop. It is just the name of the branch where the code to put into production resides.
+
 
 # Done !😊
 

@@ -240,6 +240,11 @@ To change the URL
     git remote set-url origin new_url
 ```
 
+To add origin url for a new local repo (essential)
+```
+   git remote add origin new_url
+```
+
 ## Creating a ssh key
 1. Go to personal settings icon
 ---
